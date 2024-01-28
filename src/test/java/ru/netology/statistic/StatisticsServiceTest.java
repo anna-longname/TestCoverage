@@ -1,8 +1,7 @@
 package ru.netology.statistic;
 
-import org.junit.jupiter.api.Test;
-
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class StatisticsServiceTest {
 
@@ -17,6 +16,7 @@ public class StatisticsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     void findOtherMax() {
         StatisticsService service = new StatisticsService();
